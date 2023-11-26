@@ -1,0 +1,31 @@
+{
+  "name": "@inovar/inovar-md",
+  "version": "1.0.0",
+  "description": " The markdown-to-html web component is based on <zero-md>",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "built": "rollup -c"
+  },
+  "keywords": [
+    "Markdown",
+    "Zero-Md",
+    "Html",
+    "Element"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.23.3",
+    "@babel/preset-env": "^7.23.3",
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@types/showdown": "^2.0.4",
+    "marked": "^10.0.0",
+    "rollup": "^4.4.1",
+    "showdown": "^2.1.0",
+    "showdown-highlight": "^3.1.0"
+  },
+  "author": "Inovar",
+  "license": "MIT"
+}
