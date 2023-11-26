@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": " The markdown-to-html web component is based on <zero-md>",
   "type": "module",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.mts",
+  "exports": "./dist/index.mjs",
   "scripts": {
     "built": "rollup -c"
   },

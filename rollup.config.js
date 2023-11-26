@@ -5,15 +5,15 @@ import babel from '@rollup/plugin-babel'
 export default{
     input: 'lib/inovar-md.js',
     output: {
-		format: 'iife',
-		dir: 'src',
+		format: 'umd',
+		file: 'src/index.js',
         sourcemap: true,
         name: "InovarMd"
 	},
     plugins: [
         resolve(), 
         commonjs(),
-        terser(),
+        // terser(),
         babel({ babelHelpers: 'bundled' }),
     ],
     
