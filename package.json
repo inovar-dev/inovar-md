@@ -20,11 +20,7 @@
     "@rollup/plugin-commonjs": "^25.0.7",
     "@rollup/plugin-node-resolve": "^15.2.3",
     "@rollup/plugin-terser": "^0.4.4",
-    "@types/showdown": "^2.0.4",
-    "marked": "^10.0.0",
-    "rollup": "^4.4.1",
-    "showdown": "^2.1.0",
-    "showdown-highlight": "^3.1.0"
+    "rollup": "^4.4.1"
   },
   "author": "Inovar",
   "license": "MIT"

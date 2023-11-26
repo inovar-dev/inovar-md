@@ -3,12 +3,12 @@ import commonjs from '@rollup/plugin-commonjs';
 import terser from '@rollup/plugin-terser';
 import babel from '@rollup/plugin-babel'
 export default{
-    input: 'lib/converter.js',
+    input: 'lib/inovar-md.js',
     output: {
 		format: 'iife',
 		dir: 'src',
         sourcemap: true,
-        name: "Converter"
+        name: "InovarMd"
 	},
     plugins: [
         resolve(), 
